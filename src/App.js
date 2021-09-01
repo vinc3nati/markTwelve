@@ -1,6 +1,7 @@
 import React from "react";
-import Quiz from "./Quiz";
 import Header from "./Header";
+import Footer from "./Footer";
+import Quiz from "./Quiz";
 import IsTriangle from "./IsTriangle";
 import Hypotenuse from "./Hypotenus";
 import Area from "./Area";
@@ -17,6 +18,7 @@ export default function App() {
         <Route exact path="/hypotenuse" component={Hypotenuse} />
         <Route exact path="/area-of-triangle" component={Area} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

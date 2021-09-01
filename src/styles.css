@@ -189,3 +189,39 @@ header {
   margin: 1rem;
   font-size: 1.2rem;
 }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-header {
+  color: #ff3d68;
+  font-family: monospace, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.links {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.links a * {
+  transition: fill 0.3s;
+}
+
+.links a:hover * {
+  fill: #ff3d68;
+}
